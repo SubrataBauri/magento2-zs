@@ -40,7 +40,6 @@ sudo chown www-data:www-data /var/log/xdebug > /dev/null
 echo "Installing xdebug"
 sudo pecl install xdebug > /dev/null
 echo "Configuring xdebug"
-sudo cp /var/www/html/config/php.ini /etc/php5/apache2/php.ini > /dev/null
 sudo service apache2 restart > /dev/null
 echo "Xdebug installation completeted"
 
@@ -58,9 +57,9 @@ sudo apt-get install -y mysql-client > /dev/null
 
 # Apache Configuration
 echo "Configuring Apache"
-cp /var/www/html/config/servername.conf /etc/apache2/conf-available/servername.conf > /dev/null
+cp /var/www/config/servername.conf /etc/apache2/conf-available/servername.conf > /dev/null
 sudo a2enconf servername > /dev/null
-cp /var/www/html/config/dir.conf /etc/apache2/mods-enabled/dir.conf > /dev/null
+cp /var/www/config/dir.conf /etc/apache2/mods-enabled/dir.conf > /dev/null
 sudo service apache2 restart > /dev/null
 
 # Install Git

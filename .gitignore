@@ -1,3 +1,4 @@
 .idea/
 .vagrant
-projects/
+Vagrantfile
+projects/config/
