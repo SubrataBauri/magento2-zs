@@ -1,6 +1,6 @@
 # Magento 2 Project
 
-## The root magento 2 file location is **projects/zs**
+## The root magento 2 file location is projects/zs
 
 The Vagrant used is a simple __Ubuntu Trusty64__ vagrant configuration for LAMP stack developers which also includes many related modern development tools.
 
