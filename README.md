@@ -8,8 +8,3 @@ The Vagrant used is a simple __Ubuntu Trusty64__ vagrant configuration for LAMP 
 # Overview
 The vagrant use [ubuntu/trusty64](https://atlas.hashicorp.com/ubuntu/boxes/trusty64) from [Atlas Vagrant Box](https://atlas.hashicorp.com/boxes/search?utm_source=vagrantcloud.com&vagrantcloud=1).
   On your 'vagrant up' command, this vagrantfile will automatically download the box. Vagrant folder here contain a `bootstrap.sh` file which provision the vagrant box.
-  
-  This project folder also contain a `config` folder which is used during the provisioning. 
-
-
-
